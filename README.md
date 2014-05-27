@@ -1,0 +1,4 @@
+divi
+====
+
+Divi Child Theme
