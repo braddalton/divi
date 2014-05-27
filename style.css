@@ -1,0 +1,57 @@
+/*
+Theme Name: Divi Child Theme
+Description: A child theme to house custom coding which modifies the Divi parent theme by Elegant Themes. Includes default line numbers where the code was taken from in the parent theme.
+Author:   Brad Dalton http://wpsites.net
+Template: Divi
+*/
+
+@import url("../divi/style.css");
+
+
+/* Style Footer Credits - Lines 948 & 949 */
+
+#footer-info { 
+text-align: left; 
+color: green; 
+padding-bottom: 10px; 
+float: left; 
+}
+
+#footer-info a { 
+font-weight: 700; 
+color: yellow; 
+}
+
+#footer-info a:hover { 
+color: pink; 
+}
+
+
+/* Style Footer Social Icons - Lines 1185 to 1198 */
+
+#footer-bottom .et-social-facebook a {
+	color: blue;
+}
+#footer-bottom .et-social-twitter a {
+	color: powderblue;
+}
+#footer-bottom .et-social-google-plus a {
+	color: red;
+}
+#footer-bottom .et-social-rss a {
+	color: orange;
+}
+
+/* Hover Colors*/
+#footer-bottom .et-social-facebook a:hover {
+	color: pink;
+}
+#footer-bottom .et-social-twitter a:hover {
+	color: pink;
+}
+#footer-bottom .et-social-google-plus a:hover {
+	color: pink;
+}
+#footer-bottom .et-social-rss a:hover {
+	color: pink;
+}
